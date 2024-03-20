@@ -5,7 +5,7 @@ date: '2024-3-13'
 categories: 
     - Math 
     - Nerds 
-published: false
+published: true
 ---
 
 <script>
