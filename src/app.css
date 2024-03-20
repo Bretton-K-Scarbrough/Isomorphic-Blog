@@ -1,5 +1,6 @@
 @import '@fontsource/manrope';
-/* @import '@fontsource/jetbrains-mono'; */
+@import '@fontsource/jetbrains-mono';
+@import "https://unpkg.com/open-props/gray-hsl.min.css";
 
 html {
 	/* font */
@@ -8,7 +9,7 @@ html {
 	--font-mono: 'JetBrains Mono', monospace;
   /* --font-mono: 'Courier', monospace; */
 	/* dark */
-	--brand-dark: var(--orange-3);
+	--brand-dark: var(--blue-7);
 	--text-1-dark: var(--gray-3);
 	--text-2-dark: var(--gray-5);
 	--surface-1-dark: var(--gray-12);
@@ -18,15 +19,27 @@ html {
 	--background-dark: var(--gradient-8);
 	--border-dark: var(--gray-9);
 
+	/* --brand-dark: var(--orange-4); */
+	/* --text-1-dark: var(--gray-3); */
+	/* --text-2-dark: var(--gray-4); */
+	/* --surface-1-dark: var(--gray-8); */
+	/* --surface-2-dark: var(--gray-7); */
+	/* --surface-3-dark: var(--gray-6); */
+	/* --surface-4-dark: var(--gray-5); */
+ /*  --surface-shadow-dim: var(--gray-9-hsl); */
+ /*  --shadow-strength-dim: 20%; */
+	/* --background-dark: var(--gradient-8); */
+	/* --border-dark: var(--gray-9); */
+
 	/* light */
 	--brand-light: var(--orange-10);
 	--text-1-light: var(--gray-8);
 	--text-2-light: var(--gray-7);
-	--surface-1-light: var(--gray-0);
-	--surface-2-light: var(--gray-1);
-	--surface-3-light: var(--gray-2);
-	--surface-4-light: var(--gray-3);
-	--background-light: none;
+	--surface-1-light: var(--choco-0);
+	--surface-2-light: var(--choco-1);
+	--surface-3-light: var(--choco-2);
+	--surface-4-light: var(--choco-2);
+	--background-light: var(--pink-7);
 	--border-light: var(--gray-4);
 }
 
